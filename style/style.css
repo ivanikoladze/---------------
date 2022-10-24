@@ -1,0 +1,685 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.satauri{
+    position: absolute;
+    top: 0;
+    left: -9999px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.baseline{
+    align-items: flex-start;
+}
+.flexEnd{
+    display: flex;
+    align-items: flex-start;
+}
+.flexCentre{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flexSpaceAround{
+    display: flex;
+    justify-content: space-around;
+}
+
+.surati{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;  
+}
+.flexV{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+header{
+    padding: 3%;
+    background-color: rgba(242, 233, 191, 0.7);
+}
+
+header a{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header ul{
+    width: 50%;
+}
+header ul li{
+    padding: 5px;
+}
+header ul :hover {
+    background-color: aliceblue;
+}
+.navBars
+{
+    display: none;}
+
+.signInResp{
+    display: none;
+}
+.fa-bars-icon{
+    display: none;
+}
+.navtext{
+    display: none;
+}
+.signIn{
+    padding: 6px;
+    font-size: 18px;
+    position: absolute;
+    top: 46px;
+    right: 40px;
+}
+
+.signIn:hover{
+    background-color: rgb(246, 67, 67);
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#dzieba{
+    font-size: 14px;
+    height: 26px;
+    padding: 5px;
+    width: 200px;
+    position: absolute;
+    left: 30px;
+    bottom: -2px;
+}
+
+
+.search{
+    font-size: 14px;
+    position: absolute;
+    top: 100px;
+    right: 240px;  
+}
+.fa-cart-shopping{
+font-size: 18px;
+position: absolute;
+right: 550px;
+top: 56px;
+}
+
+.cartNum{
+    width: 18px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    right: 542px;
+    border-radius: 50%;
+}
+.respback{
+    width: 100%;
+    background-color: rgba(242, 233, 191, 0.7);
+    height: 100px;
+    display: none;
+}
+.signInResp{
+    display: none;
+}
+/* ............responsiuli........... */
+
+@media only screen and (max-width: 360px) {
+    header{
+        width: 100%;
+        height: 100px;
+    }
+    .navtext{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .navBars{
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+        background-color: aliceblue;
+        text-align: center;
+    }
+    .navBars:hover{
+        background-color: rgb(251, 125, 125);
+        cursor: pointer;
+    }
+    .fa-bars-icon{
+        display: block;
+    }
+
+    header a{
+        color: #000;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 4px;
+    }
+    .flex{
+        text-align: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .navResponsive{
+        display: block;
+    }
+
+
+
+.shesavali{
+    margin-top: 20px;
+    font-size: 16px;
+    background-image: url(../suratebi/koleqtivi.jpg);
+    background-position: 40% 40%;
+    text-shadow: none;  
+}
+.signIn{
+    display: none;
+}
+.search{
+    display: none;
+}
+
+footer .memeberNames{
+    display: none;
+}
+footer .memeberRole{
+    display: none;
+}
+
+}
+
+/* pirveli gverdi shesavali */
+.shesavali{
+    font-size: 20px;
+    font-weight: 800;
+    width: 100%;
+    height: 60px;
+    color: rgb(255, 219, 41);
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    background-image: url(../suratebi/albomi.jpg);
+    background-repeat: no-repeat;
+    background-position: 10% 40%;
+    /* opacity: 0.8; */
+    margin-bottom: 80px;
+}
+
+.ansambli{
+    padding-top: 4px;
+}
+.afishebi{
+    width: 400px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.afishisAgwera{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 180px;
+}
+
+.linkToFest{
+    padding: 2px;
+    background-color: #000;
+    color: rgb(142, 226, 252);
+}
+.linkToFest:hover{
+ box-shadow: 2px 4px;
+ cursor: pointer;
+}
+.linkIcon{
+    font-size: smaller;
+    display: inline;
+}
+
+.momavaliKoncertebi{
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* ............CHATI.......... */
+.messageUs{
+    width: 340px;
+    margin: 20px auto;
+}
+
+.chat{
+    width: 340px;
+    padding-bottom: 10px;
+    border: solid 2px rgb(145, 145, 145);
+}
+.chat:hover{
+    background-color: rgb(255, 234, 77);
+}
+.chatBox{
+    width: 340px;
+    background-color: rgb(176, 230, 253);
+    padding: 6px;
+    position: relative;
+    padding-bottom: 60px;
+    border: solid 2px rgb(145, 145, 145);
+    display: none;
+}
+
+.white{
+    width: 6px;
+    height: 400px;
+    background-color: rgb(48, 45, 45);
+}
+
+.shetyobineba:hover{
+cursor: pointer;
+}
+.chatClose{
+    display: block;
+}
+.chatClose:hover{
+    cursor: pointer;
+    background-color: red;
+    color: #000;
+}
+.gagzavna{
+    font-size: 16px;
+    padding: 4px;
+    width: 120px;
+    text-align: center;
+    background-color: rgb(97, 206, 253);
+    position: absolute;
+    right: 18px;
+    bottom: 12px;
+}
+.chatText{
+    margin-top: 10px;
+}
+.gagzavna:hover{
+    box-shadow: 2px 4px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 360px){
+    .chat{
+        position: relative;
+    }
+    .chatClose{
+        position: absolute;
+        top: 0;
+        right: 0;
+    } 
+}
+
+/* .........footeri.......... */
+
+.footerBackground{
+    width: 100%;
+    padding: 40px;
+    padding-top: 80px;
+    padding-right: 320px;
+    padding-left: 90px;
+    background-color: rgb(250, 231, 203);
+}
+.memberList{
+    margin-right: 40px;
+    text-align: end;
+}
+.albumMusic{
+    font-size: 18px;
+    text-align: center;
+    width: 300px;
+}
+
+.shefasebaFeri{
+    color: yellow;
+}
+.iconsfooter{
+    font-size: 16px;
+    text-align: center;
+}
+.gradeIcons{
+    display: flex;
+}
+
+@media only screen and (max-width: 360px){
+    .footerBackground{
+        padding: 0;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .albumMusic{
+        margin-left: 10%;
+    }
+.iconsfooter{
+    margin-top: 10px;
+    margin-left: 58px;
+    font-size: 26px;
+    text-align: center;
+}
+.iconsfooter a{
+    margin-right: 18px;
+}
+.gradeIcons{
+    display: none;
+}
+
+}
+
+
+/* main,chvens shesaxeb */
+
+.meinisFeri{
+    background-color: aliceblue;
+}
+.statia{
+    width: 350px;
+    padding: 10px;
+    /* background-color: rgb(207, 239, 250); */
+    border-radius: 3%;
+    margin-top: 44px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 120px;
+}
+.statia .poto{
+    width: 350px;
+    height: 330px; 
+}
+
+.statia:hover{
+    cursor: pointer;
+}
+
+
+.poto2{
+    width: 280px;
+}
+
+.mrgvali{
+    border-radius: 6px;
+}
+.dots{
+    width: 330px;
+    height: 1px;
+    border-style: solid;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: rgb(145, 145, 145);
+}
+.viwro2{
+    width: 280px;
+}
+.date{
+    padding-top: 6px;
+}
+
+.itemProd{
+    width: 250px;
+    height: 250px;
+    margin: 150px auto;
+    text-align: center;
+    color: #000;
+    margin-bottom: 150px;
+}
+
+
+/* products, magazia */
+
+
+
+.bright{
+    filter: brightness(60%);
+    backdrop-filter: brightness(60%);
+}
+
+.prod{
+    width: 600px;
+    margin: 50px;
+}
+#axali{
+    width: 500px;
+}
+.damateba{
+    width: 200px;
+    font-size: 25px;
+    background-color: rgb(226, 147, 207);
+}
+
+.damateba :hover{
+    background-color: rgb(250, 127, 221);
+    cursor: pointer;
+}
+.shedzena{
+    width: 300px;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+    display: none;
+    padding: 30px;
+    z-index: +2;
+}
+
+/* ............................ */
+vynil{
+    font-weight: 500;
+}
+.buyPrice{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.shedzenaprod{
+    margin: 20px auto;
+}
+.liveRec{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.liveRecSize{
+    margin-bottom: 10px;
+}
+.naxatiprod{
+    margin: 20px auto;  
+}
+.comCassette{
+    margin-bottom: 10px;
+}
+/* ................................... */
+
+
+.gamochena{
+    display: inline;
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: aliceblue;
+    animation-name: animacia;
+    animation-duration: 0.6s;
+}
+
+@keyframes animacia{
+0% {right: -300px};
+25%{right: -100px};
+75%{right: 100px};
+100% {right: 300px};
+}
+
+
+.gamortva{
+    padding: 5px;
+    color: #000;
+}
+.gamortva:hover{
+    cursor: pointer;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.sxva{
+    width: 200px;
+}
+.det{
+    margin-top: 50px;
+    width: 500px;
+    margin-right: 200px;
+}
+
+.fa-solid fa-circle-chevron-down{
+    font-size: 20px;
+}
+.agwera{
+    width: 500px;
+    padding: 20px;
+}
+
+.agwera:hover{
+cursor: pointer;
+}
+
+.dashoreba{
+    padding: 20px;
+}
+.line{
+    width: 500px;
+    height: 0.8px;
+    background-color: #000;
+}
+.chamoshla{
+    display: none;
+}
+.chamoshla li{
+    list-style-type: decimal;
+    margin-left: 18px;
+    text-align: left;
+}
+.chamoshla ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.albumName{
+    padding-bottom: 10px;
+}
+
+.chamoshla2{
+    display: block;
+}
+
+
+#quantity{
+    width: 50px;
+    font-size: 16px;
+}
+#quantity:hover{
+    cursor: pointer;
+}
+.jami-gadaxda{
+    position: absolute;
+    bottom: 40px;
+    right: 25%;
+}
+.jami{
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+.gadaxda{
+    display: inline;
+    width: 200px;
+    /* height: 70px; */
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(130, 183, 235);
+}
+.gadaxda:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px;
+}
+
+.iconsAll{
+    padding: 10px;
+    font-size: 20px;
+    color:  rgb(159, 77, 140);
+    position: absolute;
+    right: 12%;
+}
+.iconsAll a{
+    margin-left: 6px;
+}
+
+
+
+/* productebi zogadad */
+
+.productFace{
+    width: 300px;
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.productImage{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-position: center;
+    background-size: contain;
+}
+.productName{
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.backAlbum{
+    background-image: url(../suratebi/albomi.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
+.backArt{
+    background-image: url(../suratebi/mixos\ naxati.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.backCasette{
+    background-image: url(../suratebi/qotniskaseta.jpg);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.backPoster{
+    background-image: url(../suratebi/posteri\ koleqtivi.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.owl-dots{
+display: none;
+}
+
+/* ............galeria.............. */
+
+.galeriaSuratebi{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+wide{
+    width: 100%;
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="თანამედროვე ქართული ინდი ბენდი კოლექტივის განხილვა, მუსიკა, ალბომები და ბენდის ბრენდული საქონელი">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>koleqtivi qartuli indie bendi</title>
+</head>
+<body>
+    <header>
+        <nav id="nav" ></nav>
+        <p class="fa-solid cart">
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <div class="cartNum">0</div>
+        </p>
+        <p class="signIn">ავტორიზაცია
+            <input type="text" name="saxeli" id="saxeli" placeholder="სახელი">
+            <input type="password" name="paroli" id = "paroli" placeholder="პაროლი">
+        </p> 
+        <div class="search">
+        <p class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></p>
+        <p class="dzieba"><input type="text" name="dzieba" id="dzieba" placeholder="ძიება"></p></div>  
+        <p class="sign">
+        </p>
+
+    </header>
+    <main>
+            <section class="flex baseline">
+                <div class="prod">
+                    <img class="surati" src="suratebi/koleqtivi vinili.jpg" alt="koleqtivi, კოლექტივი, ვინილი">
+                </div>
+            <section class="det">
+                <h2 id="axali">მუსიკალური ალბომი</h2>
+                <h3 class="price">12.00</h3>
+                <h5>გაყიდვაშია</h5>
+                <section class="flex dashoreba">
+                    <label for="quantity">რაოდენობა</label>
+                    <select id="quantity" name="quantity">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                    </select>
+
+                    <div class="damateba">
+                        <button class="damateba" id="damateba" onclick="gadaxda()">კალათაში დამატება</button>
+                    </div>
+                </section>
+                <div class="line"></div>
+                <section id="agwera" class="flex agwera" onclick="su()">
+                    <p>აღწერა</p>
+                    <p class="chevron-down" id="chevron-down">
+                        <i class="fa-solid fa-circle-chevron-down"></i>
+                    </p>
+                </section>
+                <div class="line"></div>
+                <div id="chamoshla" class="chamoshla vynil">
+                    <h4 class="albumName">სინგლი - ავსტრიელი მხატვარი</h4>
+                    <h5 class="liveRecSize">ვინილი: </h5>
+                    <h5 class="liveRec">ზომა: 18 სმ.</h5>
+                    <h5 class="liveRecSize">B-side: ცოცხალი ჩანაწერი</h5>
+                    <div class="line"></div>
+                    <div class="iconsAll">
+                        <a href="https://open.spotify.com/artist/1vGAvn168B2u58WPzbSEWo?si=eihZoLKcThCcM6D_uRNURQ&utm_source=facebook&utm_medium=messenger&nd=1" target="_blank">
+                            <i class="fa-brands fa-spotify"></i>       
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCwjNjajPPBNaKQlPT4Mquqw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/koleqtivi" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@mshobelta_kreba?fbclid=IwAR3Ozw2yt1hcU7MTJEhqjEAIDeL5yl1G3FKpldzu7HWK_H_QHfX3Py4FyiY" target="_blank"> <i class="fa-brands fa-tiktok"></i></a>
+                        
+                    </div>
+                </div>
+            </section> 
+    </section>
+    
+    <div id="shedzena" class="shedzena">
+        <section class="flex">
+            <h2 class="buyName">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p class="gamortva" onclick="gamortva()"> &#10006; </p>
+        </section>
+        <h3 class="buyPrice">
+        </h3>
+        <p class="buyQuan">16</p>
+        <section class="flexSpaceAround">
+            <div class="shedzenaprod">
+                <img class="surati" src="suratebi/koleqtivi vinili.jpg" alt="koleqtivi, კოლექტივი, ვინილი">
+            </div>
+            <section>
+                <section class="jami-gadaxda">
+                    <div id="jami" class="jami"></div>
+                    <input class="gadaxda" id="gadaxda" type="submit" value="შეძენა" onclick="gadaxda()">
+                </section>
+            </section>
+        </section>
+    </div>
+
+    <div class="owl-carousel owl-theme flexCentre">
+        <div class="itemProd">
+            <a href="products1.html"> 
+                <h4><div class="productImage backAlbum"></div>
+                    <h3 class="productName">დამსწრე საზოგადოება - ციფრული ალბომი</h3>
+                    </h4></a></div>
+        <a href="products3.html">
+            <div class="itemProd"><h4><div class="productImage backArt"></div>
+                <h3 class="productName"> სახვითი ხელოვნება </h3></h4></div>
+        </a>
+        <a href="products4.html">
+            <div class="itemProd"><h4><div class="productImage backCasette"></div>
+                <h3 class="productName">ქოთნის მუსიკა - კომპაქტ-კასეტა</h3></h4></div>
+        </a>
+        <a href="products5.html">
+            <div class="itemProd"><h4><div class="productImage backPoster"></div>
+                <h3 class="productName">კოლექტივი - პოსტერი</h3></h4></div>
+        </a>
+    </div>
+    
+    </main>
+    <footer>
+        <div class="footerBackground">
+            <section class="flex memberList">
+                <ul>
+                    <li>
+                        <h4>მიხო კალანდარიშვილი:</h4>
+                    </li>
+                    <li>
+                        <h4>მარიამ სამუშია:</h4>
+                    </li>
+                    <li>
+                        <h4>გიკო კვანტრიშვილი:</h4>
+                    </li>
+                    <li>
+                        <h4>ანუკა ყიფშიძე</h4>
+                    </li>
+                    <li>
+                        <h4>სანდრო დიასამიძე:</h4>
+                    </li>
+                    <li>
+                        <h4>დიმა დიასამიძე:</h4>
+                    </li>
+                    </ul>
+                    <ul><li>
+                        <h4>კომპოზიტორი, ვოკალი, კლავიშები</h4>
+                    </li>
+                    <li>
+                        <h4> ვოკალი, ავტორი</h4>
+                    </li>
+                    <li>
+                        <h4> კომპოზიტორი, კლავიშები</h4>
+                    </li>
+                    <li>
+                        <h4> ბასგიტარა</h4>
+                    </li>
+                    <li>
+                        <h4>კომპოზიტორი, სოლოგიტარა</h4>
+                    </li>
+                    <li>
+                        <h4> დრამი</h4>
+                    </li>
+                </ul>
+                <section>
+                    <p class="albumMusic">მოგვისმინეთ
+                        <a href="https://open.spotify.com/artist/1vGAvn168B2u58WPzbSEWo?si=eihZoLKcThCcM6D_uRNURQ&utm_source=facebook&utm_medium=messenger&nd=1" target="_blank">
+                            <img class="surati" src="suratebi/albomi.jpg" alt="koleqtivi albomi">
+                        </a>
+                    </p>
+                    <div class="iconsfooter">
+                        <a href="https://open.spotify.com/artist/1vGAvn168B2u58WPzbSEWo?si=eihZoLKcThCcM6D_uRNURQ&utm_source=facebook&utm_medium=messenger&nd=1" target="_blank">
+                            <i class="fa-brands fa-spotify"></i>       
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCwjNjajPPBNaKQlPT4Mquqw" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/koleqtivi" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@mshobelta_kreba?fbclid=IwAR3Ozw2yt1hcU7MTJEhqjEAIDeL5yl1G3FKpldzu7HWK_H_QHfX3Py4FyiY" target="_blank"> <i class="fa-brands fa-tiktok"></i></a>
+                    
+                    </div>
+                </section>
+                <section class="flex">
+                    <p>შეგვაფასეთ</p>
+                    <p class="shefaseba">
+                        <p class="star">
+                            <i class="fa-solid fa-star"></i>      
+                        </p>
+                        <p class="star">
+                            <i class="fa-solid fa-star"></i>      
+                        </p>
+                        <p class="star">
+                            <i class="fa-solid fa-star"></i>      
+                        </p>
+                        <p class="star">
+                            <i class="fa-solid fa-star"></i>      
+                        </p>
+                        <p class="star">
+                            <i class="fa-solid fa-star"></i>      
+                        </p>
+                    </p> 
+                </section>
+            </section>
+                    </div>   
+    </footer>
+    <script src="scripts/grade.js"></script>
+    <script src="scripts/navIcons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/scriptOwl.js"></script>
+    <script src="https://kit.fontawesome.com/5efdafbe1d.js" crossorigin="anonymous"></script>
+    <script src="scripts/num.js"></script>
+    <script src="scripts/scriptNav.js"></script>
+    <script src="scripts/raodenoba.js"></script>
+</body>
+</html>
